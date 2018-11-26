@@ -13,8 +13,7 @@ import curses.textpad
 import locale
 
 locale.setlocale(locale.LC_ALL, '')
-directory="./office"
-#directory="./home" #need to sort out index error for shorter lists!
+directory="./"
 
 #LoRaWAN message types
 JOIN="0"
