@@ -14,7 +14,8 @@ import locale
 
 locale.setlocale(locale.LC_ALL, '')
 directory="./"
-
+#dev-tested
+a=1
 #LoRaWAN message types
 JOIN="0"
 JOIN_ACCEPT="1"
@@ -806,7 +807,7 @@ populateTableData(0)
 
 #The table in the top right
 
-stdscr.move(0, bounds[1]-len(title)-1) 
+stdscr.move(0, bounds[1]-len(title)-1)
 stdscr.addstr(title)
 
 #create the subwindows
